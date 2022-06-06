@@ -1,0 +1,7 @@
+version: '3'
+services:
+  assistech:
+    build: .
+    command: python LanguageDetection.py
+    volumes:
+      - .:/usr/src/app
